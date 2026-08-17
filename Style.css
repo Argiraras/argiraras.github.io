@@ -885,3 +885,70 @@ footer {
     }
 
 }
+/* ==========================================================
+   Engineering Experience
+   ========================================================== */
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.experience-header h3 {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.experience-focus {
+    font-size: .9rem;
+}
+
+.experience-duration {
+    flex-shrink: 0;
+
+    padding: 7px 12px;
+
+    color: var(--primary);
+
+    background: rgba(59, 130, 246, .12);
+    border: 1px solid rgba(59, 130, 246, .25);
+    border-radius: 999px;
+
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.experience-card > p + p {
+    margin-top: 18px;
+}
+
+.experience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-top: 28px;
+}
+
+.experience-tags span {
+    padding: 6px 11px;
+
+    color: var(--muted);
+
+    background: var(--surface-light);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+
+    font-size: .8rem;
+}
+
+@media (max-width: 600px) {
+
+    .experience-header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+}
