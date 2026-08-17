@@ -952,3 +952,36 @@ footer {
     }
 
 }
+/* ==========================================================
+   Contact
+   ========================================================== */
+
+.contact-card {
+    max-width: 850px;
+    margin: auto;
+    padding: 45px;
+
+    text-align: center;
+
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.contact-card h3 {
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+}
+
+.contact-card > p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+
+    .contact-card {
+        padding: 30px 20px;
+    }
+
+}
