@@ -674,3 +674,55 @@ footer {
     }
 
 }
+/* ---------- Project Facts ---------- */
+
+.project-facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+
+    margin-bottom: 45px;
+
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.project-fact {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    padding: 22px 24px;
+    background: var(--surface);
+}
+
+.fact-label {
+    color: var(--muted);
+    font-size: .78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+
+.project-fact strong {
+    color: var(--text);
+    font-size: .95rem;
+}
+
+@media (max-width: 800px) {
+
+    .project-facts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .project-facts {
+        grid-template-columns: 1fr;
+    }
+
+}
