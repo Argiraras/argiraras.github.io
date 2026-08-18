@@ -501,6 +501,7 @@ footer {
         justify-content: center;
 
         gap: 18px;
+    }
 
     /* ---------- Project Tags ---------- */
 
@@ -520,8 +521,6 @@ footer {
     font-size: .85rem;
     font-weight: 500;
 }
-
-    }
 
     section {
 
